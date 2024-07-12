@@ -45,7 +45,7 @@ const FrontPageShowcase = () => {
       tl.fromTo(
         imageRef.current,
         {
-          y: -150,
+          y: -200,
           ease: "none",
         },
         {
@@ -76,7 +76,7 @@ const FrontPageShowcase = () => {
 
   return (
     <div className="w-screen h-screen flex flex-col-reverse lg:flex-row">
-      <div className="flex flex-col mt-[2rem] lg:mt-0 lg:w-5/12 justify-center ms-[6rem] font-poppins">
+      <div className="flex flex-col mt-[2rem] lg:mt-0 lg:w-4/12 justify-center ms-[6rem] font-poppins">
         <span>
           {" "}
           <h1 ref={titleRef} className="text-6xl font-bold">

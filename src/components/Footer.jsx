@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900">
+        <footer className="bg-primary">
     <div className="w-full max-w-screen-xl">
       <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
@@ -70,7 +70,7 @@ const Footer = () => {
                 </li>
             </ul>
         </div>
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2024 <a href="https://flowbite.com/">Wotawati</a>. All Rights Reserved.
         </span>
     </div>
     

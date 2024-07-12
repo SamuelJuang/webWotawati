@@ -66,4 +66,4 @@ const Cube = () => {
   );
 };
 
-export default Cube;
+export default Cube;  
