@@ -6,7 +6,7 @@ import { BsArrowDownCircle } from "react-icons/bs";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FrontPageShowcase = () => {
+const FrontPageShowcase = ({ onClick }) => {
   const imageRef = useRef(null);
   const titleRef = useRef(null);
   const pointer = useRef(null);
@@ -29,7 +29,7 @@ const FrontPageShowcase = () => {
         }
       );
     }
-  });
+  }, []);
 
   useEffect(() => {
     if (imageRef) {
@@ -54,7 +54,7 @@ const FrontPageShowcase = () => {
         }
       );
     }
-  });
+  }, []);
 
   useEffect(() => {
     if (titleRef) {
@@ -72,37 +72,37 @@ const FrontPageShowcase = () => {
       );
       tl2.play();
     }
-  });
+  }, []);
 
   return (
-    <div className="w-screen h-screen flex flex-col-reverse lg:flex-row">
-      <div className="flex flex-col mt-[2rem] lg:mt-0 lg:w-4/12 justify-center ms-[6rem] font-poppins">
-        <span>
-          {" "}
-          <h1 ref={titleRef} className="text-6xl font-bold">
-            Welcome to{" "}
-          </h1>
-        </span>
-        <p className=" text-6xl font-bold  text-primary">Wotawati</p>
-        <p className=" text-accent me-5 font-inter">
-          iorem ipsum dolor sit amet
-        </p>
-        <div className="flex justify-center items-center">
-          <div ref={pointer} className="flex">
-            <BsArrowDownCircle className="text-5xl text-accent" />
-          </div>
-        </div>
-      </div>
-      <div className="lg:w-7/12 flex">
-        <div className="h-screen overflow-hidden flex rounded-l-lg brightness-75" >
+    <div className="w-screen h-screen flex flex-col lg:flex-row-reverse" onClick={onClick}>
+      <div className="lg:w-7/12">
+        <div className="lg:h-screen h-[20rem] overflow-hidden flex rounded-l-lg brightness-75">
           <img
             ref={imageRef}
             src={image}
             alt="hiya"
-            className="w-full h-[100rem] object-cover"
+            className="w-full h-full object-cover lg:h-[100rem]"
           />
         </div>
       </div>
+      <div className="flex flex-col mt-[2rem] lg:mt-0 lg:w-4/12 justify-center ms-5 lg:ms-[6rem] font-poppins">
+        <span>
+          <h1 ref={titleRef} className="text-6xl font-bold">
+            Welcome to
+          </h1>
+        </span>
+        <p className="text-6xl font-bold text-primary">Wotawati</p>
+        <p className="text-accent me-5 font-inter">
+          Lorem ipsum dolor sit amet
+        </p>
+        <div className="flex justify-center items-center">
+          <div ref={pointer} className="flex">
+            <BsArrowDownCircle className="text-5xl text-accent cursor-pointer" />
+          </div>
+        </div>
+      </div>
+      
     </div>
   );
 };
