@@ -59,7 +59,7 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
       </div>
       <div className="h-1/2 lg:h-full lg:w-1/2 flex justify-center items-center p-5 lg:me-5">
         <div className="flex flex-col items-start lg:justify-center lg:items-center lg:me-5">
-          <div className="text-2xl lg:text-4xl font-bold text-center font-poppins flex flex-row gap-2">
+          <div className="text-2xl pt-5 lg:text-4xl font-bold text-center font-poppins flex flex-row gap-2">
             <h1 className="text-center">Destinasi wisata</h1>
             <h1
               className="text-secondary"
@@ -81,6 +81,10 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
           </p>
           <p className="text-2xl lg:text-4xl font-bold text-center font-poppins">
             di Girisubo, Gunungkidul!
+          </p>
+          <p className="flex lg:hidden pt-5 font-inter">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id diam sapien. Suspendisse potenti. Sed vulputate felis mauris, non pellentesque metus porttitor quis. Sed commodo dapibus est in malesuada. Duis tempor dapibus ultricies. Sed sit amet ullamcorper lorem. Ut tellus felis, imperdiet eu diam at, pharetra bibendum nibh. Nunc massa nisl, luctus vitae ultrices eu, tincidunt sed nunc. Donec semper, metus a tristique rhoncus, velit nisi iaculis velit, sed maximus urna neque id tellus. Nunc vel lectus ullamcorper, vestibulum elit sed, blandit felis. Pellentesque a metus blandit, egestas tortor at, pharetra neque.
+
           </p>
         </div>
       </div>

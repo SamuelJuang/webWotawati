@@ -38,9 +38,9 @@ export function CarouselDefault() {
   }, []);
 
   return (
-    <div className="h-full shadow-xl flex items-center rounded-b-lg lg:rounded-l-lg brightness-75">
+    <div className="h-full flex items-center rounded-b-lg lg:rounded-l-lg brightness-75">
       <Carousel
-        className="rounded-xl lg:h-5/6 lg:rounded-none lg:rounded-r-lg shadow-2xl overflow-hidden"
+        className="rounded-xl shadow-none lg:shadow-md lg:h-5/6 lg:rounded-none lg:rounded-r-lg overflow-hidden"
         autoplay
       >
         <div className="">
