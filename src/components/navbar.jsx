@@ -29,7 +29,8 @@ const Navbar = () => {
 
   let Links = [
     { name: 'Home', link: '/' },
-    { name: 'Gallery', link: '/gallery' }
+    { name: 'About Wotawati', link: '/gallery' },
+    { name: 'Contact Us', link: '/contact' },
   ];
   
   return (

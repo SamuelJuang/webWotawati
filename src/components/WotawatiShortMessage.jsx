@@ -1,7 +1,9 @@
-import React, { useEffect, useRef, forwardRef } from "react";
+import React, { useEffect, useRef, forwardRef, useState } from "react";
 import image from "../assets/tampakDepan.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Flicking from "@egjs/react-flicking";
+import { CarouselDefault } from "./flickingCarousel";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,26 +46,26 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
   };
 
   return (
-    <div ref={ref} className="w-screen h-dvh flex">
-      <div className="w-6/12 relative h-full">
-        <div className="w-[20rem] h-[20rem] absolute -left-[2rem] rounded-xl overflow-hidden brightness-75">
-          <img src={image} ref={imageRefs[0]} alt="" className="h-full object-cover" />
-        </div>
-        <div className="w-[20rem] h-[20rem] absolute bottom-[10rem] -right-0 rounded-xl overflow-hidden">
-          <img ref={imageRefs[1]} src={image} alt="" className="h-full object-cover" />
-        </div>
-        <div className="w-[20rem] h-[20rem] absolute bottom-0 left-5 rounded-xl overflow-hidden">
-          <img ref={imageRefs[2]} src={image} alt="" className="h-full object-cover" />
-        </div>
+    <div
+      ref={ref}
+      className="w-screen flex flex-col lg:flex-row h-screen items-center"
+      style={{
+        background:
+          "linear-gradient(to bottom, transparent 95%, rgb(17,25,36) 100%)",
+      }}
+    >
+       <div className="w-full lg:w-7/12 h-1/4 lg:h-full relative flex items-center justify-center">
+        <CarouselDefault />
       </div>
-      <div className="w-6/12 flex justify-center items-center p-5 me-5">
-        <div className="flex flex-col justify-center items-center me-5">
-          <div className="text-4xl font-bold text-center font-poppins flex flex-row gap-2">
-            <h1>Destinasi wisata</h1>
+      <div className="h-1/2 lg:h-full lg:w-1/2 flex justify-center items-center p-5 lg:me-5">
+        <div className="flex flex-col items-start lg:justify-center lg:items-center lg:me-5">
+          <div className="text-2xl lg:text-4xl font-bold text-center font-poppins flex flex-row gap-2">
+            <h1 className="text-center">Destinasi wisata</h1>
             <h1
               className="text-secondary"
               style={{
-                backgroundImage: "linear-gradient(90deg, #096168 0%, #A7C7E7 100%)",
+                backgroundImage:
+                  "linear-gradient(90deg, #096168 0%, #A7C7E7 100%)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 WebkitBackgroundClip: "text",
@@ -74,18 +76,21 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
             </h1>
             <h1>yang</h1>
           </div>
-          <p className="text-4xl font-bold text-center font-poppins">memukau</p>
-          <p className="text-4xl font-bold text-center font-poppins">
+          <p className="text-2xl lg:text-4xl font-bold text-center font-poppins">
+            memukau
+          </p>
+          <p className="text-2xl lg:text-4xl font-bold text-center font-poppins">
             di Girisubo, Gunungkidul!
           </p>
-         
         </div>
       </div>
+
+     
     </div>
   );
 });
 
 // Add displayName for debugging purposes
-WotawatiShortMessage.displayName = 'WotawatiShortMessage';
+WotawatiShortMessage.displayName = "WotawatiShortMessage";
 
 export default WotawatiShortMessage;

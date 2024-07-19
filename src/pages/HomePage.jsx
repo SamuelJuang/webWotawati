@@ -39,6 +39,9 @@ const HomePage = () => {
         className="absolute z-0 w-[15rem] aspect-square bg-primary rounded-full top-[50%] left-0 translate-x-[-50%] translate-y-[-50%] blur-[10rem]"
         ></div>
         <FrontPageShowcase onClick={handleClick}/>
+        <div
+        className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-[120%] right-0 translate-x-[-50%] translate-y-[-50%] blur-[8rem]"
+        ></div>
         
         <WotawatiShortMessage ref={ref}/>
         <NightSkyView />

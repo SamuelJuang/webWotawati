@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import image from "../assets/tampakDepan.jpg";
+import image from "../assets/frontPageImage.jpeg";
 import { useEffect, useRef } from "react";
 import { BsArrowDownCircle } from "react-icons/bs";
 
@@ -45,7 +45,7 @@ const FrontPageShowcase = ({ onClick }) => {
       tl.fromTo(
         imageRef.current,
         {
-          y: -200,
+          y: -100,
           ease: "none",
         },
         {
@@ -76,23 +76,23 @@ const FrontPageShowcase = ({ onClick }) => {
 
   return (
     <div className="w-screen h-screen flex flex-col lg:flex-row-reverse" onClick={onClick}>
-      <div className="lg:w-7/12">
-        <div className="lg:h-screen h-[20rem] overflow-hidden flex rounded-l-lg brightness-75">
+      <div className="w-full lg:w-7/12">
+        <div className="lg:h-screen flex items-center h-[20rem] overflow-hidden flex rounded-b-lg lg:rounded-l-lg brightness-75">
           <img
             ref={imageRef}
             src={image}
             alt="hiya"
-            className="w-full h-full object-cover lg:h-[100rem]"
+            className="w-full h-full object-cover lg:h-[60rem]"
           />
         </div>
       </div>
-      <div className="flex flex-col mt-[2rem] lg:mt-0 lg:w-4/12 justify-center ms-5 lg:ms-[6rem] font-poppins">
+      <div className="inset-0 flex flex-col mt-[2rem] lg:mt-0 lg:w-4/12 justify-center ms-5 lg:ms-[6rem] font-poppins">
         <span>
           <h1 ref={titleRef} className="text-6xl font-bold">
             Welcome to
           </h1>
         </span>
-        <p className="text-6xl font-bold text-primary">Wotawati</p>
+        <p className="text-7xl font-bold text-primary">Wotawati</p>
         <p className="text-accent me-5 font-inter">
           Lorem ipsum dolor sit amet
         </p>

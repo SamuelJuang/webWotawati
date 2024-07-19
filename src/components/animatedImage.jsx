@@ -69,7 +69,7 @@ const AnimatedImage = ({ image, alt, classname, title, mapsUrl }) => {
         src={image}
         alt={alt}
       />
-      <div className="absolute text-4xl text-center font-os font-bold text-white z-10 inset-0 top-10">
+      <div className="absolute text-3xl text-center font-os font-bold text-white z-10 inset-0 top-10">
         {title}
       </div>
     </div>

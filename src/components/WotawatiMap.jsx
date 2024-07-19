@@ -5,13 +5,15 @@ import AnimatedImage from "./animatedImage";
 
 const WotawatiMap = () => {
   return (
-    <div className="w-screen h-dvh flex">
+    <div className="w-screen h-dvh pt-5 flex" style={{
+      background: "linear-gradient(to bottom, rgb(17,25,36) 0%, transparent 5%)"
+    }}>
       <div className="flex w-5/12 items-center justify-center flex-col">
-        <p className="text-4xl font-bold font-poppins">Temukan Kami Disini!</p>
+        <p className="text-4xl font-bold font-poppin">Temukan Kami Disini!</p>
         <div className="flex flex-row gap-5 pt-[2rem]">
 
           <AnimatedImage
-            title={"Balai Dukuh"}
+            title={"Balai Padukuhan"}
             image={image}
             classname={"w-50 brightness-75 h-full object-cover"}
             alt={"Balai Dukuh"}
