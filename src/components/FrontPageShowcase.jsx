@@ -77,8 +77,9 @@ const FrontPageShowcase = ({ onClick }) => {
   return (
     <div className="w-screen h-screen flex flex-col lg:flex-row-reverse" onClick={onClick}>
       <div className="w-full lg:w-7/12">
-        <div className="lg:h-screen flex items-center h-[20rem] overflow-hidden flex rounded-b-lg lg:rounded-l-lg brightness-75">
+        <div className="lg:h-screen flex items-center h-full overflow-hidden flex rounded-b-lg lg:rounded-l-lg brightness-75">
           <img
+          loading="lazy"
             ref={imageRef}
             src={image}
             alt="hiya"
@@ -88,7 +89,7 @@ const FrontPageShowcase = ({ onClick }) => {
       </div>
       <div className="inset-0 flex flex-col mt-[2rem] lg:mt-0 lg:w-4/12 justify-center ms-5 lg:ms-[6rem] font-poppins">
         <span>
-          <h1 ref={titleRef} className="text-6xl font-bold">
+          <h1 ref={titleRef} className="text-4xl lg:text-6xl font-bold">
             Welcome to
           </h1>
         </span>

@@ -58,18 +58,19 @@ const AnimatedImage = ({ image, alt, classname, title, mapsUrl }) => {
 
   return (
     <div
-      className="relative w-[10rem] h-[10rem] rounded-xl overflow-hidden cursor-pointer"
+      className="relative flex justify-center w-[10rem] h-[10rem] rounded-xl overflow-hidden cursor-pointer"
       onMouseEnter={onMouseEnterHandler}
       onMouseLeave={onMouseLeaveHandler}
       onClick={onClickHandler}
     >
       <img
+        loading="lazy"
         ref={imgRef}
         className={classname}
         src={image}
         alt={alt}
       />
-      <div className="absolute text-3xl text-center font-os font-bold text-white z-10 inset-0 top-10">
+      <div className="absolute text-2xl text-center font-os font-bold text-white z-10 inset-0 top-10">
         {title}
       </div>
     </div>

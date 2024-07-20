@@ -45,6 +45,7 @@ export function CarouselDefault() {
       >
         <div className="">
           <img
+            loading="lazy"
             src={First}
             alt="image 1"
             className="w-full h-[50rem] object-cover"
@@ -52,12 +53,14 @@ export function CarouselDefault() {
           />
         </div>
         <img
+          loading="lazy"
           src={Second}
           alt="image 2"
           className="w-full h-full object-cover"
           ref={imageRefs.current[1]}
         />
         <img
+        loading="lazy"
           src={Third}
           alt="image 3"
           className="w-full h-full object-cover"

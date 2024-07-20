@@ -1,12 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../assets/logo_kim_wotawati_ai.png';
 import { IoMenu, IoClose } from 'react-icons/io5';
+import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [navbarVisible, setNavbarVisible] = useState(true);
+  const [isHome, setIsHome] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuAnimation, setMenuAnimation] = useState('');
   const [menuIcon, setMenuIcon] = useState(<IoMenu className="text-2xl"/>);
+
+  const location = useLocation();
+  
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setIsHome(true);
+    } else {
+      setIsHome(false);
+    }
+  }, [])
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -29,7 +41,7 @@ const Navbar = () => {
 
   let Links = [
     { name: 'Home', link: '/' },
-    { name: 'About Wotawati', link: '/gallery' },
+    { name: 'About Wotawati', link: '/about' },
     { name: 'Contact Us', link: '/contact' },
   ];
   
@@ -49,7 +61,7 @@ const Navbar = () => {
             <div className="md:hidden pt-2">
               <button
                 onClick={toggleMenu}
-                className="text-white"
+                {...(isHome ? { className: 'text-white' } : { className: 'text-black' })}
                 >
                 {menuIcon}
               </button>
