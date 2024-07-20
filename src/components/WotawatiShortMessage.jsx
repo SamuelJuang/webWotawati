@@ -48,16 +48,16 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
   return (
     <div
       ref={ref}
-      className="w-screen flex flex-col lg:flex-row h-screen items-center"
+      className="w-screen flex flex-col lg:flex-row h-screen"
       style={{
         background:
           "linear-gradient(to bottom, transparent 95%, rgb(17,25,36) 100%)",
       }}
     >
-       <div className="w-full lg:w-7/12 h-1/4 lg:h-full relative flex items-center justify-center">
+       <div className="w-full lg:w-7/12 h-1/4 lg:h-full">
         <CarouselDefault />
       </div>
-      <div className="h-1/2 lg:h-full lg:w-1/2 flex justify-center items-center p-5 lg:me-5">
+      <div className="h-3/4 lg:h-full lg:w-1/2 flex justify-center items-center p-5 lg:me-5">
         <div className="flex flex-col items-start lg:justify-center lg:items-center lg:me-5">
           <div className="text-2xl pt-5 lg:text-4xl font-bold text-center font-poppins flex flex-row gap-2">
             <h1 className="text-center">Destinasi wisata</h1>
