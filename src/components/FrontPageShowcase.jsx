@@ -97,7 +97,7 @@ const FrontPageShowcase = ({ onClick }) => {
           Lorem ipsum dolor sit amet
         </p>
         <div className="flex justify-center items-center">
-          <div ref={pointer} className="flex">
+          <div ref={pointer} className="hidden lg:flex">
             <BsArrowDownCircle className="text-5xl text-accent cursor-pointer" />
           </div>
         </div>
