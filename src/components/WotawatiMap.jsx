@@ -10,7 +10,7 @@ const WotawatiMap = () => {
       background: "linear-gradient(to bottom, rgb(17,25,36) 0%, transparent 5%)"
     }}>
       
-      <div className="flex w-3/12 justify-center flex-col ms-5 lg:ms-[6rem]">
+      <div className="flex w-full lg:w-3/12 justify-center flex-col ms-5 lg:ms-[6rem]">
         <p className="text-4xl font-bold font-poppin">Temukan Kami Disini!</p>
         <div className="flex flex-row gap-5 pt-[2rem]">
           <AnimatedImage
