@@ -26,7 +26,7 @@ const NightSkyView = () => {
       }}
     >
       <div className="flex flex-row h-full font-poppins ms-5 lg:ms-[6rem]">
-        <div className="w-1/2 flex flex-col justify-center ">
+        <div className="w-full flex flex-col justify-center ">
           <h1 className="text-6xl mb-5 font-bold">
             Night <span className="text-yellow-400">Sky</span> Showcase
           </h1>

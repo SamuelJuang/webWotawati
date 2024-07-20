@@ -9,13 +9,10 @@ const WotawatiMap = () => {
     <div className="w-screen h-dvh pt-16 lg:pt-5 flex lg:flex-row flex-col" style={{
       background: "linear-gradient(to bottom, rgb(17,25,36) 0%, transparent 5%)"
     }}>
-      <div
-        className="z-0 h-[15rem] aspect-square bg-secondary rounded-full top-[50%] left-0 translate-x-[-50%] translate-y-[-50%] blur-[15rem]"
-        ></div>
-      <div className="flex lg:w-5/12 items-center justify-center flex-col">
+      
+      <div className="flex w-3/12 justify-center flex-col ms-5 lg:ms-[6rem]">
         <p className="text-4xl font-bold font-poppin">Temukan Kami Disini!</p>
         <div className="flex flex-row gap-5 pt-[2rem]">
-
           <AnimatedImage
             title={"Balai Padukuhan"}
             image={balaiImage}
@@ -33,7 +30,7 @@ const WotawatiMap = () => {
           />
         </div>
       </div>
-      <div className="flex w-full lg:w-7/12 p-5 h-full">
+      <div className="flex w-full lg:w-9/12 p-5 h-full">
         <GmapsWotawati />
       </div>
     </div>
