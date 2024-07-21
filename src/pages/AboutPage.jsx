@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
 import PakDukuhShowcase from "../components/PakDukuhShowcase";
+import HistorySection from "../components/HistorySection";
 
 const AboutPage = () => {
   const lenisRef = useRef();
@@ -23,6 +24,7 @@ const AboutPage = () => {
     <ReactLenis root>
     <Navbar/>
     <PakDukuhShowcase />
+    <HistorySection />
     </ReactLenis>
   );
 };

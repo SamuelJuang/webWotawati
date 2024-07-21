@@ -33,7 +33,7 @@ const CameraControls = () => {
 };
 
 const Model = () => {
-    const gltf = useLoader(GLTFLoader, '/src/assets/terrain.glb');
+    const gltf = useLoader(GLTFLoader,'/src/assets/terrain.glb');
 
   
     return <primitive object={gltf.scene} scale={5} />;

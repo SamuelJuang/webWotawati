@@ -1,37 +1,43 @@
 import { Navigate } from "react-router-dom";
-import image from "../assets/placeholder.png";
+import image from "../assets/FotoPakRobyNoBG.png";
 
 const PakDukuhShowcase = () => {
-    return (
-        <div>
-       <div className="flex flex-col-reverse md:flex-row mt-[8rem] mb-[15rem] ">
+  return (
+    <div>
+      <div className="flex flex-col-reverse md:flex-row mb-[5rem] ">
+        <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-5 left-0 translate-x-[-50%] translate-y-[-50%] blur-[5rem]"></div>
+        <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full bottom-0 right-0 blur-[5rem]"></div>
         <div className="relative flex w-full md:w-7/12 pe-[5rem] items-center justify-center">
-        <div className="flex flex-col ps-[5rem] lg:ps-[10rem] justify-center md:pt-[5rem]">
-            <p className="font-pfd text-4xl lg:text-5xl font-semibold mb-5">Brownies</p>
-            <p className="font-roboto text-sm lg:text-xl font-light z-10">
-              Brownies yang terbuat dari bahan-bahan pilihan dengan kualitas terbaik.
-              Dibuat dengan resep yang telah teruji dan disukai oleh banyak orang.
-              Rasakan kenikmatan brownies yang lezat dan nikmat di setiap gigitannya.
+          <div className="flex flex-col ps-[5rem] lg:ps-[10rem] justify-center md:pt-[5rem] text-center lg:text-left">
+            <p className="font-poppins text-4xl lg:text-5xl font-bold mb-5">
+              Dukuh
             </p>
-            <button
-              onClick={() => Navigate("/katalog/produk?search=brownies")}
-              className="bg-logosecondary hover:bg-logoprimary font-roboto text-white font-bold text-xl mt-10 py-2 px-4 rounded-full lg:w-1/2"
-            >
-              Telusuri Brownies!
-            </button>
+            <p className="font-inter text-sm lg:text-xl font-light z-10">
+              Dukuh adalah seorang yang memimpin di sebuah daerah dalam
+              tingkat dukuh. Seorang Dukuh bertanggung jawab untuk
+              mengelola pemerintahan dan kesejahteraan masyarakat di dukuhnya.
+            </p>
           </div>
         </div>
-        
-        <div className="flex relative w-full md:w-5/12 justify-center items-center">
-       <img
-            className="relative w-[15rem] md:w-[30rem] inset-0 md:-inset-x-8 z-10"
+
+        <div className="flex flex-col relative w-full md:w-5/12 justify-center items-center">
+          <img
+            className="relative w-[15rem] md:w-[30rem] z-0"
             src={image}
             alt="Maatcha"
           />
+          <div className="flex flex-col text-center">
+            <p className="font-poppins pt-[1rem] lg:pt-0 text-4xl lg:text-4xl font-bold mb-0 lg:mb-2 text-primary drop-shadow-2xl">
+              Roby Sugihastanto
+            </p>
+            <p className="text-lg font-poppins font-semibold pb-[3rem] lg:pb-0">
+              Dukuh Padukuhan Wotawati
+            </p>
+          </div>
         </div>
       </div>
-        </div>
-    );
-}
+    </div>
+  );
+};
 
 export default PakDukuhShowcase;
