@@ -1,5 +1,6 @@
 import { Navigate } from "react-router-dom";
-import image from "../assets/FotoPakRobyNoBG.png";
+// import image from "../assets/FotoPakRobyNoBG.png";
+import image from "../assets/test1.png";
 
 const PakDukuhShowcase = () => {
   return (
