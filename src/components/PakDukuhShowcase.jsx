@@ -3,12 +3,12 @@ import image from "../assets/FotoPakRobyNoBG.png";
 
 const PakDukuhShowcase = () => {
   return (
-    <div>
+    <div className="h-screen">
       <div className="flex flex-col-reverse md:flex-row mb-[5rem] ">
         <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-5 left-0 translate-x-[-50%] translate-y-[-50%] blur-[5rem]"></div>
         <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full bottom-0 right-0 blur-[5rem]"></div>
         <div className="relative flex w-full md:w-7/12 pe-[5rem] items-center justify-center">
-          <div className="flex flex-col ps-[5rem] lg:ps-[10rem] justify-center md:pt-[5rem] text-center lg:text-left">
+          <div className="flex flex-col ms-[5rem] lg:ms-[6rem] md:pt-[5rem] text-center lg:text-left">
             <p className="font-poppins text-4xl lg:text-5xl font-bold mb-5">
               Dukuh
             </p>
