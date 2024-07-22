@@ -77,7 +77,7 @@ const FrontPageShowcase = ({ onClick }) => {
   return (
     <div className="w-screen h-screen flex flex-col lg:flex-row-reverse" onClick={onClick}>
       <div className="w-full lg:w-7/12">
-        <div className="lg:h-screen flex items-center h-full overflow-hidden flex rounded-b-lg lg:rounded-l-lg brightness-75">
+        <div className="lg:h-screen flex mb-5 items-center h-full overflow-hidden flex rounded-b-lg lg:rounded-l-lg ">
           <img
           loading="lazy"
             ref={imageRef}
@@ -95,7 +95,7 @@ const FrontPageShowcase = ({ onClick }) => {
         </span>
         <p className="text-7xl font-bold text-primary">Wotawati</p>
         <p className="text-accent me-5 font-inter">
-          Lorem ipsum dolor sit amet
+          Ketenangan dan keindahan, Selalu di hati
         </p>
         <div className="flex justify-center items-center">
           <div ref={pointer} className="hidden lg:flex">

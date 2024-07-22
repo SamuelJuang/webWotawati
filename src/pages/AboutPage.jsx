@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import Navbar from "../components/navbar";
 import PakDukuhShowcase from "../components/PakDukuhShowcase";
 import HistorySection from "../components/HistorySection";
+import Footer from "../components/Footer";
 
 const AboutPage = () => {
   const lenisRef = useRef();
@@ -24,7 +25,14 @@ const AboutPage = () => {
     <ReactLenis root>
     <Navbar/>
     <PakDukuhShowcase />
+    <div
+        className="absolute z-0 w-[15rem] aspect-square bg-primary rounded-full top-[150%] right-0 translate-x-[-50%] translate-y-[-50%] blur-[8rem]"
+        ></div>
+        <div
+        className="absolute z-0 w-[15rem] aspect-square bg-primary rounded-full top-[170%] left-0 translate-x-[-50%] translate-y-[-50%] blur-[8rem]"
+        ></div>
     <HistorySection />
+    <Footer/>
     </ReactLenis>
   );
 };

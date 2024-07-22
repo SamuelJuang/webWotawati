@@ -1,4 +1,5 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons'
 
 const Footer = () => {
     return (
@@ -9,33 +10,22 @@ const Footer = () => {
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Navigation</h2>
                         <ul className="text-gray-500 dark:text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">About</a>
+                                <a href="/" className="hover:underline">Home</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Careers</a>
+                                <a href="/about" className="hover:underline">About Us</a>
                             </li>
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Brand Center</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Blog</a>
+                                <a href="#" className="hover:underline">History</a>
                             </li>
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contacts</h2>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social Media</h2>
                         <ul className="text-gray-500 dark:text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="#" className="hover:underline">Discord Server</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Twitter</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Facebook</a>
-                            </li>
-                            <li className="mb-4">
-                                <a href="#" className="hover:underline">Contact Us</a>
+                            <SocialIcon url="https://www.instagram.com/kim_padukuhanwotawati/"/>
+
                             </li>
                         </ul>
                     </div>
