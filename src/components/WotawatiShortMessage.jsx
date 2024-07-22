@@ -3,7 +3,7 @@ import image from "../assets/tampakDepan.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Flicking from "@egjs/react-flicking";
-import { CarouselDefault } from "./FlickingCarousel";
+import { CarouselDefault } from "./flickingCarousel";
 
 gsap.registerPlugin(ScrollTrigger);
 

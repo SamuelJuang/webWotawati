@@ -13,7 +13,7 @@ const PakDukuhShowcase = () => {
               Dukuh
             </p>
             <p className="font-inter text-sm lg:text-xl font-light z-10">
-              Dukuh adalah seorang yang memimpin di sebuah daerah dalam
+              Seorang dukuh adalah pemimpin sebuah daerah dalam
               tingkat dukuh. Seorang Dukuh bertanggung jawab untuk
               mengelola pemerintahan dan kesejahteraan masyarakat di dukuhnya.
             </p>
