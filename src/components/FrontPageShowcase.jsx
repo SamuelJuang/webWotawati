@@ -93,7 +93,7 @@ const FrontPageShowcase = ({ onClick }) => {
             Welcome to
           </h1>
         </span>
-        <p className="text-7xl font-bold text-primary">Wotawati</p>
+        <p className="text-5xl lg:text-7xl font-bold text-primary">Wotawati</p>
         <p className="text-accent me-5 font-inter">
           Ketenangan dan keindahan, Selalu di hati
         </p>

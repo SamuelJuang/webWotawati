@@ -48,6 +48,7 @@ const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "About Wotawati", link: "/about" },
+    { name: "History", link: "/history" },
   ];
 
   const navigate = useNavigate();
@@ -79,7 +80,7 @@ const Navbar = () => {
               <button
                 onClick={toggleMenu}
                 {...(isHome
-                  ? { className: "text-white" }
+                  ? { className: "text-black" }
                   : { className: "text-black" })}
               >
                 {menuIcon}
@@ -101,7 +102,7 @@ const Navbar = () => {
                 <a
                   href={link.link}
                   className={`relative hover:text-dark-500 transition duration-500 ease-in-out group ${
-                    location.pathname === "/" ? "text-white" : "text-black"
+                    location.pathname === "/" ? "text-black" : "text-black"
                   }`}
                 >
                   {link.name}

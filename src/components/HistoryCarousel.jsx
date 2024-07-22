@@ -27,10 +27,15 @@ export function CarouselWithContent() {
                 color="white"
                 className="mb-12 opacity-80 font-inter text-sm "
               >
-                Sungai bengawan Solo Purba dulunya membentang dua puluhan
-                kilometer sebelum mengering sekitar empat juta tahun lalu akibat
-                pergeseran lempeng. Jejaknya masih bisa ditemukan memanjang dari
-                Pantai Sadeng ke Waduk Gajah Mungkur.
+                <span>
+                  Sungai bengawan Solo Purba dulunya membentang dua puluhan
+                  kilometer sebelum mengering sekitar empat juta tahun lalu
+                  akibat pergeseran lempeng.
+                  <span className="hidden lg:inline">
+                    Jejaknya masih bisa ditemukan memanjang dari Pantai Sadeng
+                    ke Waduk Gajah Mungkur.
+                  </span>
+                </span>
               </Typography>
               <div className="flex justify-center gap-2">
                 <button className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
@@ -62,13 +67,18 @@ export function CarouselWithContent() {
                 color="white"
                 className="mb-12 opacity-80 font-inter text-sm"
               >
-                Bekas aliran Bengawan Solo Purba menjadi permukiman warga, salah
-                satunya kampung Wotawati di Kabupaten Gunungkidul, yang
-                didirikan oleh Raden Jayasukma dan pengikutnya yang melarikan
-                diri dari Kerajaan Majapahit pada abad ke-15. Nama Wotawati
-                berasal dari 'ngewot' (merangkai bambu) dan 'Wati', dengan
-                sejarah kaya termasuk kisah Raden Jayasukma mengikat batu
-                raksasa dengan tali ijuk aren, menciptakan landmark Watu Duk.
+                <span>
+                  Bekas aliran Bengawan Solo Purba menjadi permukiman warga,
+                  salah satunya kampung Wotawati yang didirikan oleh Raden
+                  Jayasukma dan pengikutnya yang melarikan diri dari Kerajaan
+                  Majapahit pada abad ke-15.
+                </span>
+                <p className="hidden lg:inline">
+                  Nama Wotawati berasal dari 'ngewot' (merangkai bambu) dan
+                  'Wati', dengan sejarah kaya termasuk kisah Raden Jayasukma
+                  mengikat batu raksasa dengan tali ijuk aren, menciptakan
+                  landmark Watu Duk.
+                </p>
               </Typography>
               <div className="flex justify-center gap-2">
                 <button className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
@@ -100,14 +110,18 @@ export function CarouselWithContent() {
                 color="white"
                 className="mb-12 opacity-80 font-inter text-sm "
               >
-                Kisah Wotawati mencatat masuknya Islam melalui seorang wali,
-                murid Sunan Kalijaga, yang membantu warga menghentikan banjir
-                dengan menciptakan sembilan lubang penyedot air, dikenal sebagai
-                Luweng Sanga. Warga Wotawati mulai memeluk Islam sambil
-                melestarikan adat tradisi mereka, dan peninggalan sejarah
-                seperti Song Putri, Watu Duk, Punthuk, Luweng Sanga, Rasulan,
-                dan pusaka-pusaka Majapahit tetap menjadi saksi bisu sejarah
-                panjang kampung ini.
+                <span>
+                  Masuknya Islam melalui seorang wali, murid Sunan Kalijaga,
+                  yang membantu warga menghentikan banjir dengan menciptakan
+                  sembilan lubang penyedot air, dikenal sebagai Luweng Sanga.
+                  <span className="hidden lg:inline">
+                    Warga Wotawati mulai memeluk Islam sambil melestarikan adat
+                    tradisi mereka, dan peninggalan sejarah seperti Song Putri,
+                    Watu Duk, Punthuk, Luweng Sanga, Rasulan, dan pusaka-pusaka
+                    Majapahit tetap menjadi saksi bisu sejarah panjang kampung
+                    ini.
+                  </span>
+                </span>
               </Typography>
               <div className="flex justify-center gap-2">
                 <button className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
