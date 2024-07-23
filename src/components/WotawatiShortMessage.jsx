@@ -54,7 +54,7 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
           "linear-gradient(to bottom, transparent 95%, rgb(17,25,36) 100%)",
       }}
     >
-      <div className="w-full lg:w-7/12 h-1/4 lg:h-full">
+      <div className="w-full lg:w-7/12 h-1/4 lg:h-full mb-3">
         <CarouselDefault />
       </div>
       <div className="h-3/4 lg:h-full lg:w-1/2 flex justify-center items-center p-5 lg:me-5">

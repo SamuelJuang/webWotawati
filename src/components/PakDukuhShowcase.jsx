@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom";
 // import image from "../assets/FotoPakRobyNoBG.png";
-import image from "../assets/test1.png";
+import image from "../assets/testing (1).png";
 
 const PakDukuhShowcase = () => {
   return (
@@ -21,9 +21,9 @@ const PakDukuhShowcase = () => {
           </div>
         </div>
 
-        <div className="flex flex-col relative w-full md:w-5/12 justify-center items-center">
+        <div className="flex flex-col relative w-full md:w-5/12 justify-center items-center overflow-visible">
           <img
-            className="relative w-[15rem] md:w-[30rem] z-0"
+            className="relative object-contain h-[25rem] w-[15rem] md:w-[30rem] z-0"
             src={image}
             alt="Maatcha"
           />

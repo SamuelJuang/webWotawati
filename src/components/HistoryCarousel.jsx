@@ -1,7 +1,9 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
 import { First, Second, Third } from "../assets/CarouselImages/imageImports";
+import { useNavigate } from "react-router-dom";
 
 export function CarouselWithContent() {
+  const navigate = useNavigate();
   return (
     <div className="h-full flex items-center rounded-b-lg lg:rounded-l-lg brightness-75">
       <Carousel className="rounded-xl shadow-none lg:shadow-md overflow-hidden">
@@ -38,7 +40,7 @@ export function CarouselWithContent() {
                 </span>
               </Typography>
               <div className="flex justify-center gap-2">
-                <button className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
+                <button onClick={() => navigate("/history")} className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
                   Baca Selengkapnya
                 </button>
               </div>
@@ -81,7 +83,7 @@ export function CarouselWithContent() {
                 </p>
               </Typography>
               <div className="flex justify-center gap-2">
-                <button className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
+                <button onClick={() => navigate("/history")} className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
                   Baca Selengkapnya
                 </button>
               </div>
@@ -124,7 +126,7 @@ export function CarouselWithContent() {
                 </span>
               </Typography>
               <div className="flex justify-center gap-2">
-                <button className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
+                <button onClick={() => navigate("/history")} className="border border-accent text-accent bg-transparent hover:bg-accent hover:text-black focus:outline-none focus:ring-2 focus:ring-white py-2 px-4 rounded-md transition duration-200">
                   Baca Selengkapnya
                 </button>
               </div>
