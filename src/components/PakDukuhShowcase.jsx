@@ -4,7 +4,7 @@ import image from "../assets/testing (1).png";
 
 const PakDukuhShowcase = () => {
   return (
-    <div className="h-screen lg:h-[120vh] pt-[5rem]">
+    <div className="h-screen lg:h-[120vh] pt-[5rem] pb-[10vh]">
       <div className="flex flex-col-reverse md:flex-row mb-[5rem] ">
         <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-5 left-0 translate-x-[-50%] translate-y-[-50%] blur-[5rem]"></div>
         <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full bottom-0 right-0 blur-[5rem]"></div>

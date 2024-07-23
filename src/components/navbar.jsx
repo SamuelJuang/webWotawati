@@ -90,7 +90,7 @@ const Navbar = () => {
 
           {/* ini menu2nya */}
           <ul
-            className={`md:flex ${
+            className={`md:flex bg-slate-800 ${
               menuOpen ? "block" : "hidden"
             } md:items-center w-full md:w-auto text-center ${menuAnimation}`}
           >
