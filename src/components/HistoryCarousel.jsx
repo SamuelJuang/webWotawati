@@ -15,7 +15,7 @@ export function CarouselWithContent() {
             loading="lazy"
             src={First}
             alt="image 1"
-            className="w-full h-[30rem] object-cover"
+            className="w-full h-[40rem] lg:h-[30rem] object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-1/2 text-center md:w-2/4">
@@ -55,7 +55,7 @@ export function CarouselWithContent() {
             loading="lazy"
             src={Second}
             alt="image 1"
-            className="w-full h-[30rem] object-cover"
+            className="w-full h-[40rem] lg:h-[30rem] object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-1/2 text-center md:w-2/4">
@@ -98,7 +98,7 @@ export function CarouselWithContent() {
             loading="lazy"
             src={Third}
             alt="image 1"
-            className="w-full h-[30rem] object-cover"
+            className="w-full h-[40rem] lg:h-[30rem] object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-1/2 text-center md:w-2/4">
