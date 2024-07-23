@@ -79,7 +79,7 @@ const Navbar = () => {
               <button
                 onClick={toggleMenu}
                 {...(isHome
-                  ? { className: "text-black" }
+                  ? { className: "text-white" }
                   : { className: "text-black" })}
               >
                 {menuIcon}
@@ -101,13 +101,13 @@ const Navbar = () => {
                 <a
                   href={link.link}
                   className={`relative hover:text-dark-500 transition duration-500 ease-in-out group font-bold ${
-                    location.pathname === "/" ? "text-black" : "text-black"
+                    location.pathname === "/" ? "text-white" : "text-black"
                   }`}
                 >
                   {link.name}
                   <span
                     className={`absolute inset-x-0 bottom-0 h-0.5 transform origin-bottom scale-x-0 transition-transform duration-500 ease-in-out group-hover:scale-x-95 ${
-                      location.pathname === "/" ? "bg-black" : "bg-black"
+                      location.pathname === "/" ? "bg-white" : "bg-black"
                     }`}
                   ></span>
                 </a>

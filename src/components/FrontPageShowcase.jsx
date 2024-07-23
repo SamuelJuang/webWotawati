@@ -77,7 +77,7 @@ const FrontPageShowcase = ({ onClick }) => {
   return (
     <div className="w-screen h-screen flex flex-col lg:flex-row-reverse" onClick={onClick}>
       <div className="w-full lg:w-7/12">
-        <div className="lg:h-screen flex mb-5 items-center h-full overflow-hidden flex rounded-b-lg lg:rounded-l-lg ">
+        <div className="lg:h-screen flex mb-5 items-center h-full overflow-hidden flex rounded-b-lg lg:rounded-l-lg brightness-[.80]">
           <img
           loading="lazy"
             ref={imageRef}

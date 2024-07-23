@@ -6,7 +6,7 @@ const PakDukuhShowcase = () => {
     <div className="h-screen lg:min-h-[120vh] pt-[5rem] overflow-hidden relative">
       <div className="flex flex-col-reverse md:flex-row mb-[5rem] lg:mb-0 relative">
         <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-5 left-0 transform -translate-x-1/2 -translate-y-1/2 blur-[5rem]"></div>
-        <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full bottom-0 right-0 blur-[5rem]"></div>
+        <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full bottom-5 right-0 blur-[15rem]"></div>
         <div className="relative flex w-full md:w-7/12 pe-[5rem] items-center justify-center">
           <div className="flex flex-col ms-[5rem] lg:ms-[6rem] md:pt-[5rem] text-center lg:text-left">
             <p className="font-poppins text-4xl lg:text-5xl font-bold mb-5">
