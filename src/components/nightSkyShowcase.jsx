@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import image from "../assets/nightImage.jpeg";
+import image from "../assets/nightImage.webp";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";

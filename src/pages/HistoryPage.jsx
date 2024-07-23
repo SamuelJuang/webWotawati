@@ -3,20 +3,16 @@ import Navbar from "../components/navbar";
 
 const HistoryPage = () => {
   return (
-    <div>
+    <div className="h-screen flex flex-col">
       <Navbar />
-      <div className="h-screen mt-[5rem] lg:mt-[5rem] flex justify-center">
+      <div className="flex flex-grow justify-center mt-[5rem]">
         <div className="w-full max-w-4xl">
-        <div
-        className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-[40%] right-0 blur-[10rem]"
-        ></div>
-         <div
-        className="absolute z-0 w-[15rem] aspect-square bg-primary rounded-full top-[60%] left-0 blur-[15rem]"
-        ></div>
+          <div className="absolute z-0 w-[15rem] aspect-square bg-accent rounded-full top-[40%] right-0 blur-[10rem]"></div>
+          <div className="absolute z-0 w-[15rem] aspect-square bg-primary rounded-full top-[60%] left-0 blur-[15rem]"></div>
           <h1 className="text-4xl font-bold text-center text-accent pb-5">
             Sejarah Wotawati
           </h1>
-          <div className="overflow-auto w-3/4 h-[80vh] mx-auto p-4 border border-gray-300 rounded-lg">
+          <div className="overflow-auto w-3/4 h-[calc(100vh-10rem)] mx-auto p-4 border border-gray-300 rounded-lg">
             <p>
               KAMPUNG BENGAWAN SOLO PURBA WOTAWATI Oleh: Estu dwiyono, S. Pd.
             </p>
@@ -346,8 +342,6 @@ const HistoryPage = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

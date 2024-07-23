@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import GmapsWotawati from "./map";
-import image from "../assets/tampakDepan.jpg";
+import image from "../assets/RumahDukuh.webp";
 import AnimatedImage from "./animatedImage";
-import balaiImage from "../assets/balai.jpg";
+import balaiImage from "../assets/balai.webp";
 
 const WotawatiMap = () => {
   return (

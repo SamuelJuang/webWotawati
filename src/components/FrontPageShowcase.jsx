@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import image from "../assets/frontPageImage.jpeg";
+import image from "../assets/frontPageImage.webp";
 import { useEffect, useRef } from "react";
 import { BsArrowDownCircle } from "react-icons/bs";
 
@@ -94,7 +94,7 @@ const FrontPageShowcase = ({ onClick }) => {
           </h1>
         </span>
         <p className="text-5xl lg:text-7xl font-bold text-primary">Wotawati</p>
-        <p className="text-accent me-5 font-inter">
+        <p className="text-accent me-5 font-inter font-semibold">
           Ketenangan dan keindahan, Selalu di hati
         </p>
         <div className="flex justify-center items-center">

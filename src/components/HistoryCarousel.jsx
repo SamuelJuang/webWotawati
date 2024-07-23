@@ -1,5 +1,7 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
-import { First, Second, Third } from "../assets/CarouselImages/imageImports";
+import First from "../assets/BengawanSoloPurba.webp";
+import Second from "../assets/WotawatiFar.webp";
+import Third from "../assets/Masjid.webp";
 import { useNavigate } from "react-router-dom";
 
 export function CarouselWithContent() {
@@ -13,7 +15,7 @@ export function CarouselWithContent() {
             loading="lazy"
             src={First}
             alt="image 1"
-            className="w-full h-[50rem] object-cover"
+            className="w-full h-[30rem] object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-1/2 text-center md:w-2/4">
@@ -51,9 +53,9 @@ export function CarouselWithContent() {
         <div className="relative w-full h-full">
           <img
             loading="lazy"
-            src={First}
+            src={Second}
             alt="image 1"
-            className="w-full h-[50rem] object-cover"
+            className="w-full h-[30rem] object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-1/2 text-center md:w-2/4">
@@ -94,9 +96,9 @@ export function CarouselWithContent() {
         <div className="relative w-full h-full">
           <img
             loading="lazy"
-            src={First}
+            src={Third}
             alt="image 1"
-            className="w-full h-[50rem] object-cover"
+            className="w-full h-[30rem] object-cover"
           />
           <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
             <div className="w-1/2 text-center md:w-2/4">

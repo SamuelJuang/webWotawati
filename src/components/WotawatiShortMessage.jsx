@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, forwardRef, useState } from "react";
-import image from "../assets/tampakDepan.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Flicking from "@egjs/react-flicking";

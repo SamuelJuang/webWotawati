@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/logo_kim_wotawati_ai.png";
+import logo from "../assets/logo_kim_wotawati_ai.webp";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -48,7 +48,6 @@ const Navbar = () => {
   let Links = [
     { name: "Home", link: "/" },
     { name: "About Wotawati", link: "/about" },
-    { name: "History", link: "/history" },
   ];
 
   const navigate = useNavigate();
