@@ -1,8 +1,6 @@
 # Wotawati Website
 
-![Wotawati Logo](path/to/logo.png) <!-- Tambahkan logo atau gambar yang relevan -->
-
-Wotawati Website adalah situs web yang dikembangkan sebagai bagian dari program kerja Kuliah Kerja Nyata (KKN) Universitas Atma Jaya Yogyakarta (UAJY) periode 85. Website ini bertujuan untuk memberikan informasi dan layanan kepada masyarakat di daerah Wotawati, serta menjadi platform untuk berbagai program dan kegiatan komunitas.
+Wotawati Website adalah situs web yang dikembangkan sebagai bagian dari program kerja Kuliah Kerja Nyata (KKN) Universitas Atma Jaya Yogyakarta (UAJY) periode 85. Website ini bertujuan untuk memberikan informasi dan layanan kepada pengunjung yang ingin mengunjungi Wotawati.
 
 ## Tujuan
 
