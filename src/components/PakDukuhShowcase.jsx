@@ -17,7 +17,7 @@ const PakDukuhShowcase = () => {
               tingkat dukuh. 
               <span className="hidden lg:inline">
                 Seorang Dukuh bertanggung jawab untuk
-                mengelola pemerintahan dan kesejahteraan masyarakat di dukuhnya.
+                mengelola pemerintahan dan kesejahteraan masyarakat di padukuhannya.
               </span>
             </p>
           </div>
