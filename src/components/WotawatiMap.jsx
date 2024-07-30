@@ -18,7 +18,7 @@ const WotawatiMap = () => {
             image={balaiImage}
             classname={"w-50 brightness-50 h-full object-cover"}
             alt={"Balai Dukuh"}
-            mapsUrl={"https://maps.app.goo.gl/1iUDyjUjdzgapyodA"}
+            mapsUrl={"https://maps.app.goo.gl/a3wfioyrp2E5okbh9"}
           />
 
           <AnimatedImage
