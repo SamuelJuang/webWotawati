@@ -30,7 +30,8 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center mt-6 flex">© 2024, <a href="https://flowbite.com/">Wotawati</a>. All Rights Reserved.</span>
+                <span className="ps-5 text-sm text-gray-500 dark:text-gray-300 sm:text-center mt-6 flex">Dibuat Oleh Samuel Juang, Mahasiswa KKN periode 85 Universitas Atma Jaya Yogyakarta</span>
+                <span className="ps-5 text-sm text-gray-500 dark:text-gray-300 sm:text-center mt-6 flex">© 2024, <a href="https://flowbite.com/">Wotawati</a>. All Rights Reserved.</span>
             </div>
         </footer>
     );
