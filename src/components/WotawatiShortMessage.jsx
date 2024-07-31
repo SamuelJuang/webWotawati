@@ -82,16 +82,7 @@ const WotawatiShortMessage = forwardRef((props, ref) => {
             di Girisubo, Gunungkidul!
           </p>
           <p className="text-justify block lg:hidden pt-5 font-inter">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-            id diam sapien. Suspendisse potenti. Sed vulputate felis mauris, non
-            pellentesque metus porttitor quis. Sed commodo dapibus est in
-            malesuada. Duis tempor dapibus ultricies. Sed sit amet ullamcorper
-            lorem. Ut tellus felis, imperdiet eu diam at, pharetra bibendum
-            nibh. Nunc massa nisl, luctus vitae ultrices eu, tincidunt sed nunc.
-            Donec semper, metus a tristique rhoncus, velit nisi iaculis velit,
-            sed maximus urna neque id tellus. Nunc vel lectus ullamcorper,
-            vestibulum elit sed, blandit felis. Pellentesque a metus blandit,
-            egestas tortor at, pharetra neque.
+            This hidden gem, nestled deep within an ancient forest, is a sanctuary for both wildlife and visitors seeking peace and tranquility. The air is filled with the soothing sounds of rustling leaves and chirping birds, while sunlight filters through the canopy, casting dappled shadows on the forest floor.
           </p>
         </div>
       </div>
